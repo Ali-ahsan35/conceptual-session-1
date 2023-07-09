@@ -55,8 +55,23 @@
     background-color: rgb(240, 67, 67);
     border: none;
     border-radius: 3px;
+    color: white;
 }
 .btn:hover{
     background-color: cadetblue;
     cursor: pointer;
+}
+.about-us-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding: 10px;
+}
+.about-title{
+    text-align: center;
+    padding: top 20px;;
+}
+.about-peragraph{
+    margin:10px;
 }
